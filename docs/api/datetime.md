@@ -395,7 +395,7 @@ When using the time wheel picker, you can use the number keys to select hour and
 
 ```typescript
 interface DatetimeChangeEventDetail {
-  value?: string | null;
+  value?: string | string[] | null;
 }
 ```
 
